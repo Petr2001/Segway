@@ -1,0 +1,60 @@
+    <!-- Я не розумію чому, але після підключення сайту на опенсервер, в мене всі style.css перестали
+    відкликатись на любі зміни. І в браузері в інструментах розробника не видно ніяких змін, які були добавлені
+    Тому мені пришлось використати style в html, щоб допрацювати деякі елементи які після підключення некорректно
+    виглядали -->
+    <div class="page">
+        <style>
+            .page {
+                width: 100%;
+                background: #323941;
+            }
+        </style>
+        <header>
+            <div class="header">
+                <nav class="header-nav">
+                    <ul class="header-nav-list">
+                        <li class="nav-list-element">
+                            <a href="" class="nav-link">REVIEWS</a>
+                        </li>
+                        <li class="nav-list-element">
+                            <a href="" class="nav-link">SHIPPING AND PAYMENT</a>
+                        </li>
+                        <li class="nav-list-element">
+                            <a href="" class="nav-link">WHOLESALE</a>
+                        </li>
+                        <li class="nav-list-element">
+                            <a href="" class="nav-link">BLOG</a>
+                        </li>
+                        <li class="nav-list-element">
+                            <a href="" class="nav-link">CONTACTS</a>
+                        </li>
+                    </ul> <!-- header-nav-list -->
+                </nav> <!-- header-nav -->
+                <div class="header__cart-insta-number">
+                    <div class="header__cart">
+                        <a href="" class="header-cart-link">
+                            <img src="header-images/cart-shopping.png" alt="" class="header__cart_img">
+                        </a>
+                    </div>
+                    <div class="header__insta">
+                        <a href="" class="header-insta-link">
+                            <img src="header-images/instagram.png" alt="" class="instagram_img">
+                        </a>
+                    </div>
+                    <div class="header__number">+1 (888) 888-88-88</div>
+                </div> <!-- header__cart-insta-number -->
+            </div> <!-- .header -->
+        </header> <!-- header -->
+    </div>
+    <div class="header-logo">
+        <img src="header-images/logo.png" alt="" class="header-logo__img">
+        <div class="header-logo__ask-question">
+            <img src="header-images/header-logo-man.png" alt="" class="header-logo__ask_question_img">
+            <div class="ask-question-section">
+                <h5 class="ask-question-section__name">JOHN SMITH</h5>
+                <p class="ask-question-section__under_name">
+                    <a href="" class="ask-question-under-name__link">Ask a question <br> to the director</a>
+                </p>
+            </div>
+        </div>
+    </div> <!-- header-logo -->

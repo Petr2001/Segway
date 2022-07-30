@@ -1,0 +1,112 @@
+@font-face{
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proximanova_black.otf');
+    src: url('../fonts/proximanova_black.ttf');
+    src: url('../fonts/proximanova_blackit.otf');
+    src: url('../fonts/proximanova_bold.otf');
+    src: url('../fonts/proximanova_boldit.otf');
+    src: url('../fonts/proximanova_extrabold.otf');
+    src: url('../fonts/proximanova_light.otf');
+    src: url('../fonts/proximanova_regular.ttf');
+}
+body {
+    margin: 0px auto;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li {
+    margin: 0px auto;
+    padding: 0px;
+}
+.page {
+    width: 100%;
+    background: #323941;
+}
+header {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    max-width: 1376px;
+    margin: 0px auto;
+    background: #323941;
+}
+.header {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    padding: 10px 0px 10px 0px;
+}
+.nav-list-element {
+    display: inline-block;
+    margin-right: 24px;
+}
+.nav-list-element:last-of-type {
+    margin: 0px;
+}
+.nav-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: red;
+}
+.nav-list-element:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.header__cart-insta-number {
+    display: flex;
+    align-items: center;
+}
+.header__insta {
+    margin: 0px 17px 0px 24px;
+}
+.header__number {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.header__cart_img {
+    display: block;
+}
+.instagram_img {
+    display: block;
+}
+
+.header-logo {
+    padding: 18px 0px 18px 0px;
+    max-width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo__ask-question {
+    display: flex;
+    align-items: center;
+    margin-right: 65px;
+}
+.ask-question-section {
+    margin-left: 13px;
+}
+.ask-question-section__name {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 119.3%;
+    color: #323941;
+}
+.ask-question-under-name__link {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 119.3%;
+    text-decoration-line: underline;
+    text-transform: lowercase;
+    color: #009EFF;
+}

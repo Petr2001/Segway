@@ -1,0 +1,125 @@
+@font-face{
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proximanova_black.otf');
+    src: url('../fonts/proximanova_black.ttf');
+    src: url('../fonts/proximanova_blackit.otf');
+    src: url('../fonts/proximanova_bold.otf');
+    src: url('../fonts/proximanova_boldit.otf');
+    src: url('../fonts/proximanova_extrabold.otf');
+    src: url('../fonts/proximanova_light.otf');
+    src: url('../fonts/proximanova_regular.ttf');
+}
+body {
+    margin: 0px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li, hr {
+    margin: 0px auto;
+    padding: 0px;
+}
+.free-shipping-section {
+    margin: 0px auto;
+    background: #323941;
+}
+.images-section__top {
+    max-width: 1000px;
+    margin: 0px auto;
+    height: 131px;
+}
+.images-section__bottom {
+    max-width: 1000px;
+    margin: 0px auto;
+    height: 131px;
+}
+.images-section__top {
+    display: flex;
+}
+.images-section__bottom {
+    display: flex;
+}
+.line_between_sections {
+    border: 1px solid #616971;
+}
+
+
+
+.blue-section__image_and_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 137px;
+    height: 130px;
+    background: #009EFF;
+}
+.blue-section__link {
+    text-decoration: none;
+}
+.images-section__under_blue_image {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+
+
+.dark-section__image_and_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 137px;
+    height: 130px;
+}
+.dark-section__link {
+    text-decoration: none;
+}
+.images-section__under_image {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.4;
+    margin-left: 10px;
+}
+.images-section__dark {
+    display: block;
+    margin: 0px auto;
+    width: 80px;
+    height: 85px;
+}
+.images-section__blue {
+    width: 80px;
+    height: 85px;
+}
+.images-section__dark1{
+    display: block;
+    margin: 0px auto;
+}
+.inside-dark-section1 {
+    margin-top: 38px;
+}
+.free-text-section {
+    margin: 0px auto;
+    background: #009EFF;
+}
+.free-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 15px 0px 15px 0px;
+}
+.free-text__link {
+    text-decoration: none;
+}
+.images-section__dark-section:hover {
+    border: 1px solid white;
+}
+
